@@ -1,6 +1,8 @@
 import './App.css';
+// import { Switch, Route } from 'react-router-dom'
 import React, { Component } from 'react'
 import Container from './Container'
+// import Login from './Login'
 
 const baseURL = "http://localhost:3000/movies"
 const parseJSON = response => response.json()
@@ -23,7 +25,7 @@ class App extends Component {
         <header className="header">
           <div className="nav-wrap">
             <div className="nav-content">
-              <a className="logo" href="">EMDB</a>
+              {/* <a className="logo" href="">Movie Bank</a> */}
               <ul className="navbar nav-text">
                 <li>
                   <a href="" className="movies-link">Movies</a>

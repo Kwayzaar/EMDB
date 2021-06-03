@@ -18,9 +18,9 @@ export default function Container({ movies }) {
         <div className="App">
           <section className="top-content">
             <div className="content-wrap">
-              <h2>Welcome!</h2>
-              <h3>Literally 5's of Movies to look at!</h3>
-              <h4>(No links work!)</h4>
+              <h2>Welcome to Movie Bank!</h2>
+              <h3></h3>
+              <h4></h4>
             </div>
           </section>
           <div className="sandwich">

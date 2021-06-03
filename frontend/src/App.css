@@ -69,7 +69,7 @@ header {
   top: 0;
   width: 100%;
   height: 64px;
-  background-color: #023047;
+  background-color: #1D3557;
   z-index: 10;
   position: fixed;
   transition: top 0.2s linear;
@@ -170,9 +170,10 @@ header ul.extra li {
 
 section.top-content {
   min-height: 300px;
-  height: calc(100vh / 2.5);
   max-height: 360px;
-  background-color: #219EBC;
+  height: calc(100vh / 2.5);
+  background: -webkit-linear-gradient(rgba(69, 123, 157, 0.8), rgba(168, 218, 220, 0.8)), url("https://image.pngaaa.com/926/2988926-small.png");
+  background: linear-gradient(rgba(69, 123, 157, 0.86), rgba(168, 218, 220, 0.65)), url("https://ychef.files.bbci.co.uk/976x549/p09f3lcg.jpg");
   display: flex;
   justify-content: center;
 }
@@ -182,7 +183,7 @@ div.content-wrap {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   align-content: center;
   justify-content: center;
 }
@@ -206,7 +207,7 @@ h2 {
 
 section.movie-section {
   display: flex;
-  /* flex-flow: row wrap; */
+  flex-flow: row wrap;
   width: 100%;
   align-items: flex-start;
   align-content: flex-start;
@@ -217,7 +218,7 @@ section.movie-section {
 }
 
 div.card-wrap {
-  width: 100%;
+  width: 20%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -245,7 +246,8 @@ a.image img {
   border-radius: 25px;
   width: 100%;
   height: 100%;
-  box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+  box-shadow: 
+    0 2px 25px rgb(0 0 0 / 70%);
   border-radius: 25px;
   display: inline-block;
   outline: none;
