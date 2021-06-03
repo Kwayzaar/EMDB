@@ -4,8 +4,10 @@ one:
   title: MyString
   director: MyString
   release_year: 1
+  poster_url: MyString
 
 two:
   title: MyString
   director: MyString
   release_year: 1
+  poster_url: MyString

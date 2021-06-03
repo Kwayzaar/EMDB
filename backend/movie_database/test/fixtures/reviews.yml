@@ -2,8 +2,10 @@
 
 one:
   user: MyString
-  user_review: MyString
+  user_review: MyText
+  review_date: MyString
 
 two:
   user: MyString
-  user_review: MyString
+  user_review: MyText
+  review_date: MyString

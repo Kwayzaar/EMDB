@@ -2,7 +2,7 @@ import './App.css';
 import React, { Component } from 'react'
 import Container from './Container'
 
-const baseURL = "http://localhost:9393/movies"
+const baseURL = "http://localhost:3000/movies"
 const parseJSON = response => response.json()
 
 class App extends Component {
